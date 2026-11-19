@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#090909">
+<title>মন কথন | Hasan's Portfolio</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+:root{--bg:#090909;--panel:#151515;--gold:#d6a64f;--muted:#aaa;--line:#292929}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:#f6f3ed;font-family:'Hind Siliguri',sans-serif;line-height:1.7}
+header{position:sticky;top:0;z-index:10;background:#090909ed;border-bottom:1px solid var(--line);backdrop-filter:blur(12px)}
+.nav{max-width:1100px;margin:auto;padding:12px 20px;display:flex;align-items:center;justify-content:space-between;gap:15px;flex-wrap:wrap}
+.brand{font-size:23px;font-weight:700;color:var(--gold);text-decoration:none}.brand small{display:block;font-size:11px;color:#bbb;font-weight:400;line-height:1}
+nav{display:flex;gap:15px;flex-wrap:wrap}nav a{color:#ddd;text-decoration:none;font-size:14px}nav a:hover{color:var(--gold)}
+.hero{min-height:470px;display:grid;place-items:center;text-align:center;padding:70px 20px;background:radial-gradient(ellipse at 50% 15%,#4c301b 0%,#19110b 35%,#090909 75%)}
+.hero h1{font-size:clamp(40px,8vw,76px);margin:0;color:#fff;line-height:1.2}.hero h1 span{color:var(--gold)}.hero p{color:#d0c6b8;max-width:650px;margin:18px auto 25px}
+.btn{display:inline-block;background:var(--gold);color:#15100a;text-decoration:none;padding:10px 22px;border-radius:30px;font-weight:700;margin:4px}.btn.alt{background:transparent;border:1px solid var(--gold);color:var(--gold)}
+section{max-width:1100px;margin:auto;padding:55px 20px}.heading{text-align:center;margin-bottom:28px}.heading h2{font-size:30px;margin:0;color:var(--gold)}.heading p{margin:4px 0;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:17px}.card{background:linear-gradient(145deg,#1b1b1b,#111);border:1px solid var(--line);padding:22px;border-radius:15px}.card h3{margin:0 0 8px;color:#f3d59e}.card p{color:#c5c5c5;margin:0}.tag{color:var(--gold);font-size:12px}
+.quote{text-align:center;font-size:22px;color:#eee;border-left:3px solid var(--gold);max-width:760px;margin:25px auto;padding:15px 25px;background:#141414;border-radius:0 12px 12px 0}
+.video{aspect-ratio:16/9;background:#222;border-radius:10px;display:grid;place-items:center;color:#aaa;margin-bottom:12px}
+input,textarea,select{width:100%;padding:12px;margin:7px 0;background:#0b0b0b;color:white;border:1px solid #333;border-radius:8px;font:inherit}
+button{background:var(--gold);border:0;padding:11px 18px;border-radius:8px;font:inherit;font-weight:700;cursor:pointer}
+footer{text-align:center;border-top:1px solid var(--line);padding:25px;color:#888}
+.note{font-size:13px;color:#999;margin-top:12px}
+@media(max-width:600px){nav{gap:9px}nav a{font-size:12px}.hero{min-height:400px}}
+</style>
+</head>
+<body>
+<header><div class="nav">
+<a class="brand" href="#">মন কথন <small>HASAN'S PORTFOLIO</small></a>
+<nav><a href="#about">পরিচিতি</a><a href="#poem">কবিতা</a><a href="#story">গল্প</a><a href="#blog">ব্লগ</a><a href="#videos">ভিডিও</a><a href="#contact">যোগাযোগ</a></nav>
+</div></header>
+<main>
+<div class="hero">
+<div><div class="tag">শব্দে অনুভূতি • ভাবনায় জীবন</div><h1>মন <span>কথন</span></h1><p>কিছু অনুভূতি শব্দ হয়ে ধরা দেয়, কিছু গল্প মনে থেকে যায়। স্বাগতম আমার ছোট্ট সৃজনশীল জগতে।</p><a class="btn" href="#poem">লেখা পড়ুন</a><a class="btn alt" href="#videos">ভিডিও দেখুন</a></div>
+</div>
+<section id="about"><div class="heading"><h2>আমার সম্পর্কে</h2><p>Hasan's Portfolio</p></div><div class="card"><p>আমি ইমাম হাসান। কবিতা, গল্প, জীবনের কথা এবং অনুপ্রেরণামূলক ভাবনা নিয়ে এই ওয়েবসাইট। এখানে নিজের লেখা, ভিডিও এবং পছন্দের কনটেন্ট সাজিয়ে রাখব।</p></div></section>
+<section id="poem"><div class="heading"><h2>কবিতা</h2><p>মনের ভেতর জমে থাকা কিছু কথা</p></div><div class="grid">
+<article class="card"><span class="tag">কবিতা • ০১</span><h3>নীরব অনুভূতি</h3><p>কিছু কথা বলা হয় না, তবু তারা থেকে যায়। নীরব রাতের বুকের ভেতর স্মৃতিরা শব্দ করে যায়।</p></article>
+<article class="card"><span class="tag">কবিতা • ০২</span><h3>সময়ের কাছে</h3><p>সময় কাউকে থামিয়ে রাখে না, তবু কিছু মুহূর্ত হৃদয়ের পাতায় চিরকাল লেখা থাকে।</p></article>
+</div></section>
+<section id="story"><div class="heading"><h2>গল্প</h2><p>ছোট গল্প, বড় উপলব্ধি</p></div><div class="grid"><article class="card"><span class="tag">জীবন • গল্প</span><h3>এক মুঠো স্বপ্ন</h3><p>স্বপ্ন ছোট হতে পারে, কিন্তু তাকে ছুঁতে হলে প্রতিদিন একটু একটু করে এগিয়ে যেতে হয়।</p></article><article class="card"><span class="tag">অনুভূতি • গল্প</span><h3>শেষ বিকেলের চিঠি</h3><p>কিছু বিদায় দরজা বন্ধ করে না; বরং নতুন করে নিজেকে চিনতে শেখায়।</p></article></div></section>
+<section id="blog"><div class="heading"><h2>মোটিভেশন ও ব্লগ</h2><p>প্রতিদিন একটু ভালো হওয়ার চেষ্টা</p></div><div class="quote">“হাল ছেড়ো না—ধীরে চললেও সামনে এগিয়ে যাওয়াটাই আসল।”</div><div class="grid"><article class="card"><h3>নিজের ওপর বিশ্বাস রাখো</h3><p>অন্যের গতির সঙ্গে নিজের পথের তুলনা কোরো না। ধারাবাহিক ছোট পদক্ষেপই একদিন বড় পরিবর্তন আনে।</p></article><article class="card"><h3>ব্যর্থতা শেষ নয়</h3><p>ভুল থেকে শেখো, আবার চেষ্টা করো। প্রতিটি অভিজ্ঞতা তোমাকে আরও প্রস্তুত করে।</p></article></div></section>
+<section id="videos"><div class="heading"><h2>ভিডিও গ্যালারি</h2><p>নিজের ভিডিও বা YouTube/Facebook ভিডিওর লিংক এখানে যোগ করার নমুনা</p></div><div class="grid" id="videoGrid"><article class="card"><div class="video">▶ ভিডিওর নমুনা</div><h3>আমার ভিডিও</h3><p>এখানে তোমার ভিডিও এম্বেড বা লিংক যোগ করা যাবে।</p></article></div>
+<div class="card" style="margin-top:18px"><h3>ভিডিও লিংক যোগ করো (ডেমো)</h3><input id="videoTitle" placeholder="ভিডিওর শিরোনাম"><input id="videoUrl" placeholder="YouTube/Facebook ভিডিও URL"><button onclick="addVideo()">যোগ করো</button><p class="note">এটি শুধু এই ব্রাউজারে ডেমো হিসেবে সেভ হবে। অনলাইনে সবার জন্য প্রকাশ করতে হলে পরে সার্ভার/ডাটাবেস যুক্ত করতে হবে।</p></div></section>
+<section id="contact"><div class="heading"><h2>যোগাযোগ</h2><p>তোমার মতামত জানাও</p></div><div class="card"><p>Facebook / YouTube লিংক এখানে বসাও:</p><p class="note">তোমার আসল সোশ্যাল মিডিয়া লিংক দিয়ে এই অংশটি আপডেট করতে হবে।</p><input placeholder="Facebook Page URL"><input placeholder="YouTube Channel URL"><textarea rows="3" placeholder="যোগাযোগের ইমেইল বা বার্তা"></textarea></div></section>
+</main>
+<footer>© 2026 মন কথন | Hasan's Portfolio · ভালো লাগা শব্দে বেঁচে থাকুক</footer>
+<script>
+function addVideo(){const title=document.getElementById('videoTitle').value.trim();const url=document.getElementById('videoUrl').value.trim();if(!title||!url){alert('শিরোনাম ও লিংক লিখুন');return;}const card=document.createElement('article');card.className='card';const safe=document.createElement('a');safe.href=url;safe.target='_blank';safe.rel='noopener';safe.textContent='▶ ভিডিওটি খুলুন';safe.style.color='#d6a64f';const h=document.createElement('h3');h.textContent=title;card.append(h,safe);document.getElementById('videoGrid').append(card);document.getElementById('videoTitle').value='';document.getElementById('videoUrl').value='';}
+</script>
+</body></html>
